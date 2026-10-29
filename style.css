@@ -1,0 +1,64 @@
+
+body {
+    text-align: center;
+    padding: 100px;
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+}
+
+h1 {
+    color: red;
+    font-size: 40px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green;
+}
+
+#message {
+    color: darkblue;
+}
+button:last-of-type {
+    background-color: red;
+}
+
+button:last-of-type:hover {
+    background-color: darkred;
+}
+.card {
+    background: white;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #999;
+}
+@media (max-width: 480px) {
+    body {
+        padding: 20px;
+    }
+
+    .card {
+        width: auto;
+        padding: 20px;
+    }
+
+    input {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}

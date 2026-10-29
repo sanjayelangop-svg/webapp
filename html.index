@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>My First Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="card">
+
+    <h1>My First Web App</h1>
+<p>Enter your name below to get started.</p>
+    <form onsubmit="greetUser(); return false;">
+    <input id="username" type="text" placeholder="Enter your name">
+    <button type="submit">Submit</button>
+    <button type="button" onclick="clearForm()">Clear</button>
+</form>
+    <h3 id="message"></h3>
+
+    <script src="script.js"></script>
+    </div>
+</body>
+</html>
